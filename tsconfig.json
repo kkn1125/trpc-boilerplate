@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "CommonJS",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "allowJs": true,
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
+    "composite": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "allowUnusedLabels": false,
+    "noImplicitUseStrict": false,
+    "noImplicitAny": false,
+    "noResolve": false,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["server/src", "client/src"]
+}
